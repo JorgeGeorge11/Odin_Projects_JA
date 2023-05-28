@@ -27,3 +27,64 @@
     
     
 }
+
+.container1{
+    display: flex;
+    background-color: rgb(12, 0, 90);
+    flex-direction: column;
+    
+}
+
+.container1 h2{
+    flex: 3;
+    color: white;
+    font-size: 46px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    position: relative;
+    left: 15%;
+    
+
+}
+
+.container1 p{
+    font-size: 16px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    flex: 1;
+    
+    width: 550px;
+    position: relative;
+    left: 15%;
+}
+
+.button{
+    border-style: none;
+    border-radius: 8px;
+    background-color: rgb(8, 70, 203);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    flex:1;
+    width: 100px;
+    height: 10px;
+    position: relative;
+    left: 15%;
+    cursor: pointer;
+    
+    
+    
+    
+}
+
+.image{
+    
+    height: 250px;
+    width: 400px;
+    border-radius: 9px;
+    position: fixed;
+    right: 320px;
+    top: 50px;
+}
+   
